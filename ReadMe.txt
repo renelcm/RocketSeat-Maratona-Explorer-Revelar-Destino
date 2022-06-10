@@ -1,4 +1,4 @@
-Projeto da Marona da Explorer realizado pela Rockseat
+Projeto da "Marona Explorer" realizado pela Rockseat
 
 
 HTML
