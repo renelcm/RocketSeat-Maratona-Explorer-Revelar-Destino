@@ -10,4 +10,4 @@ Faça uma pergunta e ele irá revelar o seu destino!!!
 
 Clique no Link abaixo para Verificar o projeto
 
-https://renelcm.github.io/RocketSeat---Maratona-Explorer-Revelar-Destino-/
+https://renelcm.github.io/RocketSeat-Maratona-Explorer-Revelar-Destino/
