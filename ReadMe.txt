@@ -1,6 +1,5 @@
 Projeto da "Marona Explorer" realizado pela Rockseat
 
-
 HTML
 CSS
 JAVASCRIPT
