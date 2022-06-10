@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { /*corpo*/
+    background-color: black; /*coloração do fundo*/
+    color: white; /*coloração das letras*/
+    text-align: center; /*alinhar textop ao centro*/
+    font-family: sans-serif; /*formatar fonte*/
+}
+
+
+#container { /*nome da div para separação em blocos*/
+    margin-top: 10px; /*magem do topo do bloco*/
+    width: 50%; /*tamanho do bloco*/
+    max-width: 400px; /*tamanho maximo do bloco*/
+    margin-inline: auto; /*margem e alinhamento dentro do bloco*/
+}
+
+img {
+    max-width: 70%; /*alterando tamanho da imagem*/
+}
+
+h1 { /*titulo*/
+    margin-top: 40px; /*espaçamento ao topo*/
+    margin-bottom: 10px; /*espaçamento em baixo*/
+    opacity: 0.9; /*deixar letra clara ou escura*/
+}
+
+p { /*parágrafo*/
+    margin-bottom: 40px; /*espaçamento em baixo do parágrafo*/
+    opacity: 0.7; /*deixar letra clara ou escura*/
+}
+
+input,button { /*selecionando dois elementos [caixa "Digite sua pergunta"] e [caixa "Fazer Pergunta"]*/
+    display: block; /*colocando as caixas uma em baixo da outra*/
+    width: 100%; /*tamanho da caixa pegando 100%*/
+
+    padding: 20px; /*preenchimento interno da caixa [deixando ela maior ou menor]*/
+    font-size: 20px; /*tamanho da fonte na caixa*/
+    border-radius: 4px; /*arredondamento da caixa*/
+}
+
+input {
+    margin-bottom: 20px; /*espaçamento da prkmeira para segunda caixa*/
+}
+
+button {
+    width: 100%; /*tamanho da caixa do botão*/
+    border: none; /*retirar borda do botão*/
+    background-color: blueviolet; /*coloração do botão*/
+    transition: filter .2s; /*tempo da transição*/
+    color: white;
+}
+
+button:hover {
+    filter: brightness(1.2); /*coloração ao passar o mouse em cima do botão*/
+    cursor: pointer; /*ao passar o mouse em cima do botção tem a animação de uma maozinha*/
+}
+
+#resposta {
+    margin-top: 30px;
+
+    transition: opacity 1s;;
+}
+
+#resposta div {
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.9;
+}
+
+
+
+
+
